@@ -1,0 +1,24 @@
+[{
+    "id": 1001,
+    "firstName": "John",
+    "lastName": "Smith",
+    "dateOfBirth": "01/20/1990"
+ },
+ {
+     "id": 1002,
+     "firstName": "Joann",
+     "lastName": "Smith",
+     "dateOfBirth": "08/01/1993"
+ },
+ {
+     "id": 1003,
+     "firstName": "Jennifer",
+     "lastName": "Watson",
+     "dateOfBirth": "05/15/1999"
+  },
+  {
+      "id": 1004,
+      "firstName": "Peter",
+      "lastName": "Parker",
+      "dateOfBirth": "02/27/2001"
+  }]

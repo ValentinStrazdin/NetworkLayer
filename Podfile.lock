@@ -1,0 +1,34 @@
+PODS:
+  - Alamofire (5.4.0)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - Reusable (4.1.1):
+    - Reusable/Storyboard (= 4.1.1)
+    - Reusable/View (= 4.1.1)
+  - Reusable/Storyboard (4.1.1)
+  - Reusable/View (4.1.1)
+  - TrustKit (1.7.0)
+
+DEPENDENCIES:
+  - Moya
+  - Reusable
+  - TrustKit
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Moya
+    - Reusable
+    - TrustKit
+
+SPEC CHECKSUMS:
+  Alamofire: 3b6a534a3df22db367e4dedeeca73d1ddfcf0e2f
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  Reusable: 53a9acf5c536f229b31b5865782414b508252ddb
+  TrustKit: dac38bb37e49bdfeca41b1a19d020da38017b51c
+
+PODFILE CHECKSUM: b78fd5e7f729e31c0aaff2f4ecf05f94effff264
+
+COCOAPODS: 1.10.1

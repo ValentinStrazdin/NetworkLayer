@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="UserCell" id="Q0z-AN-X62" customClass="UserCell" customModule="NetworkLayer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Q0z-AN-X62" id="QjN-dE-xsk">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="3Cp-8P-cTQ">
+                        <rect key="frame" x="20" y="5" width="374" height="50"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cg6-gn-KAN">
+                                <rect key="frame" x="0.0" y="0.0" width="374" height="25"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8DR-Vh-617">
+                                        <rect key="frame" x="0.0" y="0.0" width="82.5" height="25"/>
+                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PS8-0s-iRp">
+                                        <rect key="frame" x="92.5" y="0.0" width="81" height="25"/>
+                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="PS8-0s-iRp" secondAttribute="bottom" id="1HC-8x-9tP"/>
+                                    <constraint firstItem="PS8-0s-iRp" firstAttribute="leading" secondItem="8DR-Vh-617" secondAttribute="trailing" constant="10" id="SF9-Du-lGb"/>
+                                    <constraint firstItem="8DR-Vh-617" firstAttribute="top" secondItem="cg6-gn-KAN" secondAttribute="top" id="eMA-6G-DSk"/>
+                                    <constraint firstAttribute="height" constant="25" id="jOd-24-LZX"/>
+                                    <constraint firstAttribute="bottom" secondItem="8DR-Vh-617" secondAttribute="bottom" id="oT2-Mf-qZw"/>
+                                    <constraint firstItem="PS8-0s-iRp" firstAttribute="top" secondItem="cg6-gn-KAN" secondAttribute="top" id="pFm-E5-7Gf"/>
+                                    <constraint firstItem="8DR-Vh-617" firstAttribute="leading" secondItem="cg6-gn-KAN" secondAttribute="leading" id="yc7-Xe-afg"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date of Birth" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AQS-ef-XbI">
+                                <rect key="frame" x="0.0" y="25" width="374" height="25"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="3Cp-8P-cTQ" secondAttribute="bottom" constant="5" id="I0q-tH-skd"/>
+                    <constraint firstItem="3Cp-8P-cTQ" firstAttribute="leading" secondItem="QjN-dE-xsk" secondAttribute="leading" constant="20" id="KXB-EV-3tE"/>
+                    <constraint firstItem="3Cp-8P-cTQ" firstAttribute="top" secondItem="QjN-dE-xsk" secondAttribute="top" constant="5" id="Oct-Ty-Yol"/>
+                    <constraint firstAttribute="trailing" secondItem="3Cp-8P-cTQ" secondAttribute="trailing" constant="20" id="qct-lU-fGm"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="dateOfBirthLabel" destination="AQS-ef-XbI" id="nCC-kY-aVa"/>
+                <outlet property="firstNameLabel" destination="8DR-Vh-617" id="UXK-kq-mbW"/>
+                <outlet property="lastNameLabel" destination="PS8-0s-iRp" id="oyY-MM-wO2"/>
+            </connections>
+            <point key="canvasLocation" x="132" y="44"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

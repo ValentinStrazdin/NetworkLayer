@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "28E23F8A-EDBA-46D0-9953-B998036FB154"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6347E876-9AD0-4D41-AE97-932431907D70"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NetworkLayerTests/NetworkLayerIntegrationTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
+            landmarkName = "login(expectation:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "153F2C1A-5563-47CA-9BB1-6A46F0F8FD78"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NetworkLayerTests/NetworkLayerIntegrationTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "testGetUsers()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "153F2C1A-5563-47CA-9BB1-6A46F0F8FD78 - 3ac18cb22ee33e58"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NetworkLayerTests.NetworkLayerIntegrationTests.testGetUsers() -&gt; ()"
+                  moduleName = "NetworkLayerTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/valentin_strazdin/Documents/Conference/NetworkLayer/NetworkLayerTests/NetworkLayerIntegrationTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "205">
+               </Location>
+               <Location
+                  uuid = "153F2C1A-5563-47CA-9BB1-6A46F0F8FD78 - 3ac18cb22ee3400f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NetworkLayerTests.NetworkLayerIntegrationTests.testGetUsers() -&gt; ()"
+                  moduleName = "NetworkLayerTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/valentin_strazdin/Documents/Conference/NetworkLayer/NetworkLayerTests/NetworkLayerIntegrationTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "205">
+               </Location>
+               <Location
+                  uuid = "153F2C1A-5563-47CA-9BB1-6A46F0F8FD78 - 3ac18cb22ee34307"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NetworkLayerTests.NetworkLayerIntegrationTests.testGetUsers() -&gt; ()"
+                  moduleName = "NetworkLayerTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/valentin_strazdin/Documents/Conference/NetworkLayer/NetworkLayerTests/NetworkLayerIntegrationTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "205">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6DF93A97-F9D1-4666-9F2B-FD5D5DFF8720"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NetworkLayerTests/NetworkLayerIntegrationTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "testGetUsers()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6DF93A97-F9D1-4666-9F2B-FD5D5DFF8720 - b9bee0dda7b3b31f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in NetworkLayerTests.NetworkLayerIntegrationTests.testGetUsers() -&gt; ()"
+                  moduleName = "NetworkLayerTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/valentin_strazdin/Documents/Conference/NetworkLayer/NetworkLayerTests/NetworkLayerIntegrationTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "41">
+               </Location>
+               <Location
+                  uuid = "6DF93A97-F9D1-4666-9F2B-FD5D5DFF8720 - b9bee0dda7b3cd4a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in NetworkLayerTests.NetworkLayerIntegrationTests.testGetUsers() -&gt; ()"
+                  moduleName = "NetworkLayerTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/valentin_strazdin/Documents/Conference/NetworkLayer/NetworkLayerTests/NetworkLayerIntegrationTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "41">
+               </Location>
+               <Location
+                  uuid = "6DF93A97-F9D1-4666-9F2B-FD5D5DFF8720 - b9bee0dda7b3ce42"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in NetworkLayerTests.NetworkLayerIntegrationTests.testGetUsers() -&gt; ()"
+                  moduleName = "NetworkLayerTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/valentin_strazdin/Documents/Conference/NetworkLayer/NetworkLayerTests/NetworkLayerIntegrationTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "41">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D20A2D34-F2EB-4B96-BF9B-F030F9856B25"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NetworkLayerTests/NetworkLayerIntegrationTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "login(expectation:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "126F774D-DA54-41ED-A3AC-8789CB993D74"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NetworkLayerTests/NetworkLayerIntegrationTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
+            landmarkName = "login(username:password:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "126F774D-DA54-41ED-A3AC-8789CB993D74 - 7fccd0487c4084c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;NetworkLayer.LoginResult, NetworkLayer.CustomError&gt;) -&gt; () in NetworkLayerTests.NetworkLayerIntegrationTests.login(username: Swift.String, password: Swift.String, completion: (Swift.Result&lt;(), NetworkLayer.CustomError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "NetworkLayerTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/valentin_strazdin/Documents/Conference/NetworkLayer/NetworkLayerTests/NetworkLayerIntegrationTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "328">
+               </Location>
+               <Location
+                  uuid = "126F774D-DA54-41ED-A3AC-8789CB993D74 - 7fccd0487c408295"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;NetworkLayer.LoginResult, NetworkLayer.CustomError&gt;) -&gt; () in NetworkLayerTests.NetworkLayerIntegrationTests.login(username: Swift.String, password: Swift.String, completion: (Swift.Result&lt;(), NetworkLayer.CustomError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "NetworkLayerTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/valentin_strazdin/Documents/Conference/NetworkLayer/NetworkLayerTests/NetworkLayerIntegrationTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "328">
+               </Location>
+               <Location
+                  uuid = "126F774D-DA54-41ED-A3AC-8789CB993D74 - 7fccd0487c408bcc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;NetworkLayer.LoginResult, NetworkLayer.CustomError&gt;) -&gt; () in NetworkLayerTests.NetworkLayerIntegrationTests.login(username: Swift.String, password: Swift.String, completion: (Swift.Result&lt;(), NetworkLayer.CustomError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "NetworkLayerTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/valentin_strazdin/Documents/Conference/NetworkLayer/NetworkLayerTests/NetworkLayerIntegrationTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "136"
+                  endingLineNumber = "136"
+                  offsetFromSymbolStart = "353">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8BFBC706-1176-4303-90FE-8C0B195FBC3A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NetworkLayer/Decoding/Result+DecodingResponses.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "decodeResponse(using:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6C093FA2-C9AB-4C86-81E6-6E6C084D17D5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NetworkLayer/Decoding/Result+DecodingResponses.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "decodeResponse(using:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3398CCC0-DA00-41D0-8D89-E17097C37384"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NetworkLayer/Web Services/Custom Errors/Result+FilterErrors.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "filterServerErrors()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8F94134A-5548-40BB-9EDB-0737D7C39BF4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NetworkLayer/Web Services/Custom Errors/Result+FilterErrors.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "filterServerErrors()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
