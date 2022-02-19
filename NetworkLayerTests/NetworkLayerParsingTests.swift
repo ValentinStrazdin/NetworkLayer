@@ -12,9 +12,6 @@ import Moya
 
 class NetworkLayerParsingTests: XCTestCase {
     // MARK: - Moya Providers
-    private lazy var loginProvider: MoyaProvider<LoginApi> = {
-        MoyaProvider<LoginApi>(stubClosure: getStubClosure, plugins: plugins)
-    }()
     private lazy var userProvider: MoyaProvider<UserApi> = {
         MoyaProvider<UserApi>(stubClosure: getStubClosure, plugins: plugins)
     }()
@@ -26,27 +23,9 @@ class NetworkLayerParsingTests: XCTestCase {
     }
 
     // MARK: - Services
-    private lazy var loginService: LoginServiceProtocol = {
-        LoginService(provider: loginProvider)
-    }()
-
     private lazy var userService: UserServiceProtocol = {
         UserService(provider: userProvider)
     }()
-
-    func testParsingLogin() {
-        let loginExpectation = expectation(description: "login")
-        loginService.login(username: "", password: "") { result in
-            switch result {
-            case .success(let loginResult):
-                print("Auth Token - \"\(loginResult.token)\"")
-            case .failure(let error):
-                XCTFail("Error Parsing Login Response: \(error.description)")
-            }
-            loginExpectation.fulfill()
-        }
-        waitForExpectations(timeout: 90, handler: nil)
-    }
 
     func testParsingUsers() {
         let getUsersExpectation = expectation(description: "getUsers")

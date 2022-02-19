@@ -5,23 +5,7 @@
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
-		<false/>
-	</dict>
-	<key>TSKConfiguration</key>
-	<dict>
-		<key>TSKPinnedDomains</key>
-		<dict>
-			<key>google.com</key>
-			<dict>
-				<key>TSKEnforcePinning</key>
-				<true/>
-				<key>TSKPublicKeyHashes</key>
-				<array>
-					<string>QRltZfZWtu1iGxyI348Ypvx0xuq3RA5OrxehXxuo3mc=</string>
-					<string>zCTnfLwLKbS9S2sbp+uFz4KZOocFvXxkV06Ce9O5M2w=</string>
-				</array>
-			</dict>
-		</dict>
+		<true/>
 	</dict>
 	<key>UIApplicationSceneManifest</key>
 	<dict>

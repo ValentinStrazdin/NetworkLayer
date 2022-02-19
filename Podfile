@@ -8,7 +8,6 @@ target 'NetworkLayer' do
   # Pods for NetworkLayer
   pod 'Moya'
   pod 'Reusable'
-  pod 'TrustKit'
 
   target 'NetworkLayerTests' do
     inherit! :search_paths

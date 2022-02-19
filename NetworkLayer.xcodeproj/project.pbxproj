@@ -15,9 +15,7 @@
 		8158014227A6EBD800520382 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8158014127A6EBD800520382 /* Assets.xcassets */; };
 		8158014527A6EBD800520382 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8158014327A6EBD800520382 /* LaunchScreen.storyboard */; };
 		8158015027A6EBD800520382 /* NetworkLayerParsingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8158014F27A6EBD800520382 /* NetworkLayerParsingTests.swift */; };
-		8158016E27A6EDE900520382 /* LoginApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8158016D27A6EDE900520382 /* LoginApi.swift */; };
 		8158017027A6EE3200520382 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8158016F27A6EE3200520382 /* UserModel.swift */; };
-		8158017227A6EE4100520382 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8158017127A6EE4100520382 /* LoginService.swift */; };
 		8158017527A6EE6800520382 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8158017427A6EE6800520382 /* AppConfig.swift */; };
 		8158017727A6EE7700520382 /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8158017627A6EE7700520382 /* DependencyContainer.swift */; };
 		8185F8E427B7BB200010BF3B /* UserApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8185F8E327B7BB200010BF3B /* UserApi.swift */; };
@@ -27,11 +25,8 @@
 		8185F8F727B903810010BF3B /* UsersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8185F8F627B903810010BF3B /* UsersViewModel.swift */; };
 		8185F8FC27B923250010BF3B /* UsersResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 8185F8FB27B923250010BF3B /* UsersResponse.json */; };
 		8185F8FF27B9238A0010BF3B /* JSONHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8185F8FE27B9238A0010BF3B /* JSONHelper.swift */; };
-		8185F90127B92F040010BF3B /* LoginResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8185F90027B92F040010BF3B /* LoginResult.swift */; };
-		8185F90327B92F780010BF3B /* LoginResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 8185F90227B92F780010BF3B /* LoginResponse.json */; };
 		8185F90527B9306E0010BF3B /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8185F90427B9306E0010BF3B /* BaseService.swift */; };
 		8185F90727B953010010BF3B /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8185F90627B953010010BF3B /* CustomError.swift */; };
-		8185F90927B97ADF0010BF3B /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8185F90827B97ADF0010BF3B /* AuthenticationManager.swift */; };
 		8185F91027B9854F0010BF3B /* NetworkLayerIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8185F90F27B9854F0010BF3B /* NetworkLayerIntegrationTests.swift */; };
 		8185F91227B9860A0010BF3B /* TestConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8185F91127B9860A0010BF3B /* TestConstants.swift */; };
 		8185F91A27BA8C5C0010BF3B /* Result+DecodingResponses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8185F91927BA8C5C0010BF3B /* Result+DecodingResponses.swift */; };
@@ -40,11 +35,11 @@
 		8185F92027BAAC740010BF3B /* JSONDecoder+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8185F91F27BAAC740010BF3B /* JSONDecoder+Custom.swift */; };
 		8185F92227BAACC90010BF3B /* DateFormatter+CustomDateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8185F92127BAACC90010BF3B /* DateFormatter+CustomDateFormat.swift */; };
 		8185F92527BAB3B00010BF3B /* JSONEncoder+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8185F92427BAB3B00010BF3B /* JSONEncoder+Custom.swift */; };
-		8185F92827BB01790010BF3B /* CustomSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8185F92727BB01790010BF3B /* CustomSessionDelegate.swift */; };
 		8185F92A27BB01C50010BF3B /* URLSessionConfiguration+Default.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8185F92927BB01C50010BF3B /* URLSessionConfiguration+Default.swift */; };
 		8185F92D27BB04D20010BF3B /* UserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8185F92C27BB04D20010BF3B /* UserCell.xib */; };
 		8185F92F27BB04DD0010BF3B /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8185F92E27BB04DD0010BF3B /* UserCell.swift */; };
 		8185F93127BB05BB0010BF3B /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8185F93027BB05BB0010BF3B /* Date+Extension.swift */; };
+		818C2D0627C1655E0032E5BA /* ProcessInfo+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C2D0527C1655E0032E5BA /* ProcessInfo+Extension.swift */; };
 		9ACBF3547F16D5975C522A89 /* Pods_NetworkLayerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6706CC162F06B2D828C59261 /* Pods_NetworkLayerTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -73,9 +68,7 @@
 		8158014627A6EBD800520382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8158014B27A6EBD800520382 /* NetworkLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8158014F27A6EBD800520382 /* NetworkLayerParsingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayerParsingTests.swift; sourceTree = "<group>"; };
-		8158016D27A6EDE900520382 /* LoginApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginApi.swift; sourceTree = "<group>"; };
 		8158016F27A6EE3200520382 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
-		8158017127A6EE4100520382 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
 		8158017427A6EE6800520382 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
 		8158017627A6EE7700520382 /* DependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
 		8185F8E327B7BB200010BF3B /* UserApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserApi.swift; sourceTree = "<group>"; };
@@ -85,11 +78,8 @@
 		8185F8F627B903810010BF3B /* UsersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewModel.swift; sourceTree = "<group>"; };
 		8185F8FB27B923250010BF3B /* UsersResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UsersResponse.json; sourceTree = "<group>"; };
 		8185F8FE27B9238A0010BF3B /* JSONHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONHelper.swift; sourceTree = "<group>"; };
-		8185F90027B92F040010BF3B /* LoginResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResult.swift; sourceTree = "<group>"; };
-		8185F90227B92F780010BF3B /* LoginResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LoginResponse.json; sourceTree = "<group>"; };
 		8185F90427B9306E0010BF3B /* BaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
 		8185F90627B953010010BF3B /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
-		8185F90827B97ADF0010BF3B /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
 		8185F90F27B9854F0010BF3B /* NetworkLayerIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayerIntegrationTests.swift; sourceTree = "<group>"; };
 		8185F91127B9860A0010BF3B /* TestConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestConstants.swift; sourceTree = "<group>"; };
 		8185F91927BA8C5C0010BF3B /* Result+DecodingResponses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Result+DecodingResponses.swift"; sourceTree = "<group>"; };
@@ -98,11 +88,11 @@
 		8185F91F27BAAC740010BF3B /* JSONDecoder+Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONDecoder+Custom.swift"; sourceTree = "<group>"; };
 		8185F92127BAACC90010BF3B /* DateFormatter+CustomDateFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+CustomDateFormat.swift"; sourceTree = "<group>"; };
 		8185F92427BAB3B00010BF3B /* JSONEncoder+Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONEncoder+Custom.swift"; sourceTree = "<group>"; };
-		8185F92727BB01790010BF3B /* CustomSessionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSessionDelegate.swift; sourceTree = "<group>"; };
 		8185F92927BB01C50010BF3B /* URLSessionConfiguration+Default.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSessionConfiguration+Default.swift"; sourceTree = "<group>"; };
 		8185F92C27BB04D20010BF3B /* UserCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserCell.xib; sourceTree = "<group>"; };
 		8185F92E27BB04DD0010BF3B /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		8185F93027BB05BB0010BF3B /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		818C2D0527C1655E0032E5BA /* ProcessInfo+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProcessInfo+Extension.swift"; sourceTree = "<group>"; };
 		BF1CFD700669E3AE83BD93D1 /* Pods-NetworkLayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkLayer.release.xcconfig"; path = "Target Support Files/Pods-NetworkLayer/Pods-NetworkLayer.release.xcconfig"; sourceTree = "<group>"; };
 		DCA02096E74CF1CC75E6D00C /* Pods-NetworkLayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkLayerTests.debug.xcconfig"; path = "Target Support Files/Pods-NetworkLayerTests/Pods-NetworkLayerTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -190,7 +180,6 @@
 				8158016C27A6EDCF00520382 /* Model */,
 				8185F8FA27B922E40010BF3B /* Sample Responses */,
 				8158016A27A6ED9900520382 /* Services */,
-				8185F92627BB01600010BF3B /* Session Delegate */,
 			);
 			path = "Web Services";
 			sourceTree = "<group>";
@@ -198,7 +187,6 @@
 		8158016927A6ED7000520382 /* API */ = {
 			isa = PBXGroup;
 			children = (
-				8158016D27A6EDE900520382 /* LoginApi.swift */,
 				8185F8E327B7BB200010BF3B /* UserApi.swift */,
 			);
 			path = API;
@@ -208,7 +196,6 @@
 			isa = PBXGroup;
 			children = (
 				8185F90427B9306E0010BF3B /* BaseService.swift */,
-				8158017127A6EE4100520382 /* LoginService.swift */,
 				8185F8E527B7BB330010BF3B /* UserService.swift */,
 				8185F91927BA8C5C0010BF3B /* Result+DecodingResponses.swift */,
 				8185F91D27BA8D2B0010BF3B /* Result+Mapping.swift */,
@@ -229,7 +216,6 @@
 			isa = PBXGroup;
 			children = (
 				8158016F27A6EE3200520382 /* UserModel.swift */,
-				8185F90027B92F040010BF3B /* LoginResult.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -276,8 +262,8 @@
 		8185F8F927B922A40010BF3B /* DependencyContainer */ = {
 			isa = PBXGroup;
 			children = (
-				8185F90827B97ADF0010BF3B /* AuthenticationManager.swift */,
 				8158017627A6EE7700520382 /* DependencyContainer.swift */,
+				8185F92927BB01C50010BF3B /* URLSessionConfiguration+Default.swift */,
 			);
 			path = DependencyContainer;
 			sourceTree = "<group>";
@@ -285,7 +271,6 @@
 		8185F8FA27B922E40010BF3B /* Sample Responses */ = {
 			isa = PBXGroup;
 			children = (
-				8185F90227B92F780010BF3B /* LoginResponse.json */,
 				8185F8FB27B923250010BF3B /* UsersResponse.json */,
 			);
 			path = "Sample Responses";
@@ -295,17 +280,9 @@
 			isa = PBXGroup;
 			children = (
 				8185F8FE27B9238A0010BF3B /* JSONHelper.swift */,
+				818C2D0527C1655E0032E5BA /* ProcessInfo+Extension.swift */,
 			);
 			path = Helpers;
-			sourceTree = "<group>";
-		};
-		8185F92627BB01600010BF3B /* Session Delegate */ = {
-			isa = PBXGroup;
-			children = (
-				8185F92727BB01790010BF3B /* CustomSessionDelegate.swift */,
-				8185F92927BB01C50010BF3B /* URLSessionConfiguration+Default.swift */,
-			);
-			path = "Session Delegate";
 			sourceTree = "<group>";
 		};
 		8185F92B27BB04C00010BF3B /* UserCell */ = {
@@ -434,7 +411,6 @@
 				8158014527A6EBD800520382 /* LaunchScreen.storyboard in Resources */,
 				8158014227A6EBD800520382 /* Assets.xcassets in Resources */,
 				8185F92D27BB04D20010BF3B /* UserCell.xib in Resources */,
-				8185F90327B92F780010BF3B /* LoginResponse.json in Resources */,
 				8158014027A6EBD400520382 /* Main.storyboard in Resources */,
 				8185F8FC27B923250010BF3B /* UsersResponse.json in Resources */,
 			);
@@ -519,10 +495,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8185F92227BAACC90010BF3B /* DateFormatter+CustomDateFormat.swift in Sources */,
-				8158016E27A6EDE900520382 /* LoginApi.swift in Sources */,
 				8185F8E427B7BB200010BF3B /* UserApi.swift in Sources */,
 				8185F91A27BA8C5C0010BF3B /* Result+DecodingResponses.swift in Sources */,
-				8185F92827BB01790010BF3B /* CustomSessionDelegate.swift in Sources */,
 				8158013D27A6EBD400520382 /* UsersViewController.swift in Sources */,
 				8158013927A6EBD400520382 /* AppDelegate.swift in Sources */,
 				8185F90727B953010010BF3B /* CustomError.swift in Sources */,
@@ -535,10 +509,7 @@
 				8185F90527B9306E0010BF3B /* BaseService.swift in Sources */,
 				8185F91E27BA8D2B0010BF3B /* Result+Mapping.swift in Sources */,
 				8158017027A6EE3200520382 /* UserModel.swift in Sources */,
-				8185F90127B92F040010BF3B /* LoginResult.swift in Sources */,
 				8185F93127BB05BB0010BF3B /* Date+Extension.swift in Sources */,
-				8185F90927B97ADF0010BF3B /* AuthenticationManager.swift in Sources */,
-				8158017227A6EE4100520382 /* LoginService.swift in Sources */,
 				8185F92027BAAC740010BF3B /* JSONDecoder+Custom.swift in Sources */,
 				8158017727A6EE7700520382 /* DependencyContainer.swift in Sources */,
 				8185F8F127B7BCDB0010BF3B /* DecodingError+Messages.swift in Sources */,
@@ -546,6 +517,7 @@
 				8185F8FF27B9238A0010BF3B /* JSONHelper.swift in Sources */,
 				8185F92F27BB04DD0010BF3B /* UserCell.swift in Sources */,
 				8158013B27A6EBD400520382 /* SceneDelegate.swift in Sources */,
+				818C2D0627C1655E0032E5BA /* ProcessInfo+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

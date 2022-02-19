@@ -14,7 +14,9 @@ class UsersViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.register(cellType: UserCell.self)
-        reloadData()
+        if !ProcessInfo.isRunningTests {
+            reloadData()
+        }
     }
 
     @IBAction func refreshAction(_ sender: UIRefreshControl) {

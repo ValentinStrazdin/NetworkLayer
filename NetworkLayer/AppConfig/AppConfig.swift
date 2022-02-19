@@ -8,6 +8,5 @@
 import Foundation
 
 struct AppConfig {
-    static let serverUrl = URL(string: "https://127.0.0.1:3003")!
-//    static let serverUrl = URL(string: "https://google.com")!
+    static let serverUrl = URL(string: "http://127.0.0.1:3003")!
 }
