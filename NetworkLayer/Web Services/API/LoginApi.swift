@@ -42,7 +42,7 @@ extension LoginApi: TargetType {
     
     var task: Task {
         switch self {
-        case .login(username: let username, password: let password):
+        case .login(let username, let password):
             return .requestJSONEncodable(["username": username,
                                           "password": password])
         case .logout:

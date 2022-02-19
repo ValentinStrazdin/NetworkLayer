@@ -31,13 +31,13 @@ extension UserApi: TargetType {
 
     var method: Moya.Method {
         switch self {
-        case .createUser(_):
+        case .createUser:
             return .post
         case .getUsers:
             return .get
-        case .updateUser(_, _):
+        case .updateUser:
             return .put
-        case .deleteUser(_):
+        case .deleteUser:
             return .delete
         }
     }
@@ -53,7 +53,7 @@ extension UserApi: TargetType {
 
     var task: Task {
         switch self {
-        case .getUsers, .deleteUser(_):
+        case .getUsers, .deleteUser:
             return .requestPlain
         case .createUser(let user), .updateUser(_, let user):
             return .requestCustomJSONEncodable(user, encoder: .custom)
