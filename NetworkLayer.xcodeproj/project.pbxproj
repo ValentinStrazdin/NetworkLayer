@@ -40,6 +40,7 @@
 		8185F92F27BB04DD0010BF3B /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8185F92E27BB04DD0010BF3B /* UserCell.swift */; };
 		8185F93127BB05BB0010BF3B /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8185F93027BB05BB0010BF3B /* Date+Extension.swift */; };
 		818C2D0627C1655E0032E5BA /* ProcessInfo+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C2D0527C1655E0032E5BA /* ProcessInfo+Extension.swift */; };
+		818C2D3627C652AF0032E5BA /* HasRunningRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C2D3527C652AF0032E5BA /* HasRunningRequests.swift */; };
 		9ACBF3547F16D5975C522A89 /* Pods_NetworkLayerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6706CC162F06B2D828C59261 /* Pods_NetworkLayerTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -93,6 +94,7 @@
 		8185F92E27BB04DD0010BF3B /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		8185F93027BB05BB0010BF3B /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		818C2D0527C1655E0032E5BA /* ProcessInfo+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProcessInfo+Extension.swift"; sourceTree = "<group>"; };
+		818C2D3527C652AF0032E5BA /* HasRunningRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasRunningRequests.swift; sourceTree = "<group>"; };
 		BF1CFD700669E3AE83BD93D1 /* Pods-NetworkLayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkLayer.release.xcconfig"; path = "Target Support Files/Pods-NetworkLayer/Pods-NetworkLayer.release.xcconfig"; sourceTree = "<group>"; };
 		DCA02096E74CF1CC75E6D00C /* Pods-NetworkLayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkLayerTests.debug.xcconfig"; path = "Target Support Files/Pods-NetworkLayerTests/Pods-NetworkLayerTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -196,6 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				8185F90427B9306E0010BF3B /* BaseService.swift */,
+				818C2D3527C652AF0032E5BA /* HasRunningRequests.swift */,
 				8185F8E527B7BB330010BF3B /* UserService.swift */,
 				8185F91927BA8C5C0010BF3B /* Result+DecodingResponses.swift */,
 				8185F91D27BA8D2B0010BF3B /* Result+Mapping.swift */,
@@ -497,6 +500,7 @@
 				8185F92227BAACC90010BF3B /* DateFormatter+CustomDateFormat.swift in Sources */,
 				8185F8E427B7BB200010BF3B /* UserApi.swift in Sources */,
 				8185F91A27BA8C5C0010BF3B /* Result+DecodingResponses.swift in Sources */,
+				818C2D3627C652AF0032E5BA /* HasRunningRequests.swift in Sources */,
 				8158013D27A6EBD400520382 /* UsersViewController.swift in Sources */,
 				8158013927A6EBD400520382 /* AppDelegate.swift in Sources */,
 				8185F90727B953010010BF3B /* CustomError.swift in Sources */,

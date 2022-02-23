@@ -34,7 +34,7 @@ class NetworkLayerIntegrationTests: XCTestCase {
 
     func testGetUsers() {
         let getUsersExpectation = expectation(description: "getUsers")
-        userService.getUsers { result in
+        _ = userService.getUsers { result in
             switch result {
             case .success(let users):
                 print("Users:\n \(users.map({ $0.description }).joined(separator: "\n"))")
@@ -48,7 +48,7 @@ class NetworkLayerIntegrationTests: XCTestCase {
 
     func testCreateUser() {
         let createUserExpectation = expectation(description: "createUser")
-        userService.createUser(TestConstants.userModel) { result in
+        _ = userService.createUser(TestConstants.userModel) { result in
             switch result {
             case .success:
                 print("User successfully created")
@@ -62,7 +62,7 @@ class NetworkLayerIntegrationTests: XCTestCase {
 
     func testUpdateUser() {
         let updateUserExpectation = expectation(description: "updateUser")
-        userService.updateUser(id: TestConstants.userId,
+        _ = userService.updateUser(id: TestConstants.userId,
                                user: TestConstants.userModel) { result in
             switch result {
             case .success:
@@ -77,7 +77,7 @@ class NetworkLayerIntegrationTests: XCTestCase {
 
     func testDeleteUser() {
         let deleteUserExpectation = expectation(description: "deleteUser")
-        userService.deleteUser(id: TestConstants.userId) { result in
+        _ = userService.deleteUser(id: TestConstants.userId) { result in
             switch result {
             case .success:
                 print("User successfully deleted")

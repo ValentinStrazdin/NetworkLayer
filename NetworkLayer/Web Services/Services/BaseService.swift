@@ -8,20 +8,11 @@
 import Foundation
 import Moya
 
-public protocol CancellableServiceProtocol: AnyObject {
-    func cancelRequest()
-}
-
 typealias VoidBlock = (() -> Void)
 public typealias EmptyCompletion = (Result<Void, CustomError>) -> Void
 
-public class BaseService: CancellableServiceProtocol {
-    public var runningRequest: Cancellable?
-
-    public func cancelRequest() {
-        self.runningRequest?.cancel()
-    }
-
+public class BaseService {
+    
     public func processEmptyResult(_ result: Result<Moya.Response, MoyaError>,
                                    completion: EmptyCompletion) {
         let filteredResult = result.filterServerErrors()

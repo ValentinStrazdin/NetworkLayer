@@ -6,9 +6,12 @@
 //
 
 import Foundation
+import Moya
 
-class UsersViewModel: HasUserService {
+class UsersViewModel: HasUserService, HasRunningRequests {
     var userService: UserServiceProtocol
+    var runningRequests: [Cancellable?] = []
+
     var users: [UserModel] = []
 
     init(dependencyContainer: HasUserService = DependencyContainer.shared) {
@@ -16,7 +19,7 @@ class UsersViewModel: HasUserService {
     }
 
     func getUsers(completion: @escaping EmptyCompletion) {
-        userService.getUsers { result in
+        let request = userService.getUsers { result in
             switch result {
             case .success(let users):
                 self.users = users
@@ -26,9 +29,6 @@ class UsersViewModel: HasUserService {
                 completion(.failure(error))
             }
         }
-    }
-
-    func cancelRequests() {
-        userService.cancelRequest()
+        runningRequests.append(request)
     }
 }

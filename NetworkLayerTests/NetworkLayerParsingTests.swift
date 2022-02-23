@@ -29,7 +29,7 @@ class NetworkLayerParsingTests: XCTestCase {
 
     func testParsingUsers() {
         let getUsersExpectation = expectation(description: "getUsers")
-        userService.getUsers { result in
+        _ = userService.getUsers { result in
             switch result {
             case .success(let users):
                 print("Users:\n \(users.map({ $0.description }).joined(separator: "\n"))")
