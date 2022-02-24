@@ -22,7 +22,7 @@ extension UserApi: TargetType {
 
     var path: String {
         switch self {
-        case .getUsers, .createUser(_):
+        case .getUsers, .createUser:
             return "/users"
         case .updateUser(let id, _), .deleteUser(let id):
             return "/users/\(id)"
